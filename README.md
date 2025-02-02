@@ -20,4 +20,8 @@ We aim to fine-tune LLM models for Swedish PII masking tasks. Especially these 3
 - Problem: We need a public dataset
 - Solution: we use the Enron dataset.
 
+- Problem: Missclassification with US_DRIVER_LICENSE and US_BANK_NUMBER, Handle these cases better
+- Problem: Masking all the mails will take more than 350 Hours.
+- Problem: Miss spellings do not get classified.
+- Problem: Some names and places are still not picked up.
 
